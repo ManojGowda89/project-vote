@@ -1,5 +1,13 @@
+// to install dejango
+python -m pip install Django
+
+//to establish localdatabase 
 python manage.py migrate
 
+
+//to start server 
 python manage.py runserver
+
+//to create admin password and id
 
 python manage.py createsuperuser
